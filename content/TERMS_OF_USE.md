@@ -36,9 +36,16 @@ The current version of the App is designed to work primarily on-device and does 
 
 The App may offer one-time purchases and/or subscriptions (for example, monthly, yearly, or lifetime options) through platform stores and RevenueCat.
 
-- Billing, payment processing, renewals, cancellations, and refunds are handled by the relevant app store platform (for example, Google Play or Apple).
+- Billing, payment processing, renewals, cancellations, and refunds are handled by the relevant app store platform (for example, Google Play or Apple), not directly by us.
 - Product availability, pricing, and trial or offer details may change over time.
 - You can restore eligible purchases using the restore flow in the App.
+
+### Subscription renewal and cancellation
+
+- Auto-renewing subscriptions renew automatically unless canceled before the renewal date according to your store account rules.
+- You can manage or cancel subscriptions in your Google Play / Apple account subscription settings.
+- If a free trial or introductory offer is provided, any unused portion may be forfeited if you purchase another applicable plan, as permitted by store rules.
+- "Lifetime" products (where offered) are one-time purchases tied to your eligible store account and platform purchase rules.
 
 ## 5. Refunds
 
@@ -72,3 +79,7 @@ We may update these Terms from time to time. If material changes are made, we wi
 
 These Terms are governed by the laws applicable in your jurisdiction, unless otherwise required by consumer protection law.
 
+## 13. Related Documents
+
+- Privacy Policy: https://jetstream1128.github.io/work-hours-tracker/privacy-policy/
+- Terms web page: https://jetstream1128.github.io/work-hours-tracker/terms-of-use/

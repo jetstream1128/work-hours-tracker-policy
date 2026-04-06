@@ -21,25 +21,14 @@
         color: var(--text);
       }
       main {
-        max-width: 860px;
+        max-width: 940px;
         margin: 0 auto;
         padding: 40px 20px 72px;
       }
-      a {
-        color: var(--accent);
-      }
-      .top-link {
-        color: var(--muted);
-        text-decoration: none;
-      }
-      h1 {
-        margin: 12px 0 8px;
-        font-size: 34px;
-      }
-      .meta {
-        color: var(--muted);
-        margin-bottom: 20px;
-      }
+      a { color: var(--accent); }
+      .top-link { color: var(--muted); text-decoration: none; }
+      h1 { margin: 12px 0 8px; font-size: 34px; }
+      .meta { color: var(--muted); margin-bottom: 20px; }
       section {
         margin-top: 22px;
         padding: 18px;
@@ -47,88 +36,89 @@
         background: var(--surface);
         border-radius: 14px;
       }
-      h2 {
-        margin: 0 0 10px;
-        font-size: 20px;
-      }
-      p,
-      li {
-        line-height: 1.65;
-        color: #e8e8e8;
-      }
-      ul {
-        margin: 8px 0 0 20px;
-        padding: 0;
-      }
-      .muted {
-        color: var(--muted);
-      }
+      h2 { margin: 0 0 10px; font-size: 20px; }
+      h3 { margin: 14px 0 8px; font-size: 16px; }
+      p, li { line-height: 1.65; color: #e8e8e8; }
+      ul { margin: 8px 0 0 20px; padding: 0; }
+      .muted { color: var(--muted); }
+      code { color: #f3d999; }
     </style>
   </head>
   <body>
     <main>
       <a class="top-link" href="../">Back to legal home</a>
       <h1>Privacy Policy</h1>
-      <p class="meta">Effective date: February 28, 2026</p>
+      <p class="meta">Effective date: April 6, 2026</p>
 
       <section>
         <p>
           This Privacy Policy applies to <strong>Ultimate Work Hours Tracker</strong> and explains
-          how we handle information when you use the app.
+          how DanTechStudio handles information when you use the app.
         </p>
       </section>
 
       <section>
-        <h2>1. Contact</h2>
+        <h2>Contact</h2>
         <p>Developer: Bohdan Alieksieiev</p>
         <p>Email: <a href="mailto:dantechstudio.sup@gmail.com">dantechstudio.sup@gmail.com</a></p>
       </section>
 
       <section>
-        <h2>2. Summary</h2>
+        <h2>What data is processed</h2>
+        <h3>Local on-device data</h3>
         <ul>
-          <li>The app is designed to work primarily on your device.</li>
-          <li>The app does not require account creation for core use.</li>
-          <li>Shift history and settings are stored locally on-device.</li>
-          <li>Exports (for example PDF/XLSX) are created only when you request them.</li>
+          <li>Shift records, settings, local backups, and exported files you create.</li>
+          <li>Notification/widget configuration needed for app functionality.</li>
+        </ul>
+        <h3>Third-party service processing</h3>
+        <ul>
+          <li>Firebase Analytics for product usage events and app-level analytics properties.</li>
+          <li>Firebase Remote Config for runtime app configuration values.</li>
+          <li>RevenueCat and app stores for purchase/subscription status handling.</li>
         </ul>
       </section>
 
       <section>
-        <h2>3. Data processing and storage</h2>
-        <p>
-          Depending on your usage, the app may process shift records, app settings, local backups,
-          and locally generated export files. In the current version, this data is intended to stay
-          on your device unless you explicitly share exported files.
-        </p>
+        <h2>How data is used</h2>
+        <ul>
+          <li>Run core shift-tracking and payroll estimate features.</li>
+          <li>Save settings and support reminders/widget behavior.</li>
+          <li>Generate and share exports when requested by you.</li>
+          <li>Improve app quality and support purchases/restoration.</li>
+        </ul>
       </section>
 
       <section>
-        <h2>4. Sharing</h2>
+        <h2>Sharing and selling</h2>
         <p>We do not sell personal data.</p>
         <p>
-          Data may leave the app only through actions initiated by you (for example using OS share
-          features), or through platform-level processing controlled by your device/app store.
+          Data may be shared with service providers used by the app (Firebase, RevenueCat, platform
+          stores), and with destinations you choose when sharing exported files.
         </p>
       </section>
 
       <section>
-        <h2>5. Retention and deletion</h2>
-        <p>
-          Data remains on your device until edited/deleted by you, app data is cleared, or the app
-          is uninstalled. You can also remove exported files from the location where you saved them.
-        </p>
+        <h2>Retention and deletion</h2>
+        <ul>
+          <li>Local data remains until edited/deleted by you, app storage is cleared, or uninstall.</li>
+          <li>Automatic backups are kept in a limited on-device rolling set.</li>
+          <li>Third-party retention follows provider policies.</li>
+        </ul>
       </section>
 
       <section>
-        <h2>6. Changes</h2>
-        <p>We may update this policy from time to time and will update the effective date.</p>
+        <h2>Third-party policy references</h2>
+        <ul>
+          <li><a href="https://support.google.com/googleplay/android-developer/answer/10144311?hl=en">Google Play User Data policy</a></li>
+          <li><a href="https://developer.apple.com/app-store/review/guidelines/">Apple App Review Guidelines</a></li>
+          <li><a href="https://firebase.google.com/docs/ios/app-store-data-collection">Firebase data collection docs</a></li>
+          <li><a href="https://www.revenuecat.com/docs/customers/identifying-customers">RevenueCat customer identity docs</a></li>
+        </ul>
       </section>
 
       <p class="muted">
-        Full source text is available in the repository: <code>docs/PRIVACY_POLICY.md</code>.
+        Canonical source file: <code>docs/PRIVACY_POLICY.md</code>.
       </p>
     </main>
   </body>
 </html>
-

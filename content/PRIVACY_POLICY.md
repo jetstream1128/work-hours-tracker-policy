@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective date: February 28, 2026
+Effective date: April 6, 2026
 
 This Privacy Policy applies to **Ultimate Work Hours Tracker** (the "App") and explains how **DanTechStudio** ("we", "us", or "our") handles information when you use the App.
 
@@ -13,100 +13,133 @@ If you have questions about this Privacy Policy or privacy-related requests, con
 
 ## Summary
 
-The App is designed to work primarily on your device. It is used to track work shifts, store work-hour settings, create local reminders, and export your data if you choose to do so.
+The App is a work-hours tracking tool. It is designed to store shift data primarily on your device, while using selected third-party services for analytics, remote configuration, and in-app purchase/subscription management.
 
 At the time of writing, the App:
 
-- stores work-hour data and app settings locally on your device;
+- stores work-hour records and settings locally on your device;
 - stores a limited number of automatic local database backups on your device;
-- can create local files such as XLSX and PDF exports when you request them;
-- can share exported files through your device's operating system if you choose to use the share feature;
-- can schedule local notifications and Android home screen widget updates;
-- does not require account creation;
-- does not include in-app advertising;
-- does not use analytics SDKs in the current version;
-- does not send your shift history or settings to our servers in the current version.
+- can create local XLSX/PDF exports when you request them;
+- can share exported files through your device operating system when you choose to share;
+- uses local notifications and Android widget/exact alarm functionality when enabled;
+- uses Firebase Analytics and Firebase Remote Config;
+- uses RevenueCat for subscription and purchase status handling;
+- does not require account creation for core features;
+- does not include third-party advertising SDKs.
 
 ## Information We Process
 
-Depending on how you use the App, the App may process the following categories of information on your device:
+### A. Data processed locally on your device
 
-- Work shift records, such as dates, start times, end times, and shift source.
-- App settings, such as reminder preferences, notification preferences, default shift start times, overtime settings, language choice, and related preferences.
-- Locally generated backup copies of the App database used for recovery.
-- Exported files you choose to generate, such as XLSX or PDF files containing your shift data.
+- Work shift records (for example date, start/end times, shift source).
+- App settings (for example reminders, language, currency, overtime settings, widget settings).
+- Local backup files of the app database.
+- Export files you generate (for example XLSX/PDF).
 
-The App may also interact with operating-system level information needed to provide features such as notifications, exact alarms, app widget updates, file sharing, and file save dialogs.
+### B. Data processed by third-party services used by the App
+
+#### Firebase Analytics
+
+Used for product analytics events and selected app-level properties, such as:
+
+- app interaction events (for example punch in/out, export action);
+- selected preferences sent as analytics properties (for example preferred theme/language/currency and certain feature usage flags).
+
+Firebase/Google may also process SDK/device/app identifiers and usage metadata required for analytics operation.
+
+#### Firebase Remote Config
+
+Used to fetch app configuration values (for example feature flags, update thresholds, and policy URLs).
+
+Remote Config may process technical metadata used for parameter targeting and service operation (for example app/platform/version and related configuration context).
+
+#### RevenueCat and App Store Providers
+
+Used to support subscriptions and one-time in-app purchases.
+
+Depending on platform flow, this can include:
+
+- product identifiers and purchase status;
+- transaction/receipt-related data required for validation;
+- RevenueCat App User ID (anonymous by default if you do not sign in);
+- store-side billing/subscription metadata handled by Google Play / Apple.
+
+We do not use your shift history as purchase identity data.
 
 ## How We Use Information
 
-We use information processed by the App to:
+We use data to:
 
-- display and manage your recorded work shifts;
-- calculate totals and summaries inside the App;
-- save your preferences and settings;
-- schedule and show local reminders and automatic shift-related notifications;
-- support Android home screen widget behavior;
-- create local backup copies for recovery;
-- generate and share exports when you request them.
-
-## Where Data Is Stored
-
-Your work-hour records, settings, and automatic database backups are stored locally on your device.
-
-The App is intended to function without a user account or a remote backend in the current version. Based on the current codebase, we do not operate a feature that uploads your shift history or settings to our own servers.
+- run core shift tracking and payroll-estimate functionality;
+- save settings and keep app behavior consistent across sessions;
+- schedule reminders and support Android widget behavior;
+- generate/share exports when you request them;
+- monitor product usage and improve app quality/features;
+- validate and restore purchases/subscriptions.
 
 ## Sharing of Data
 
 We do not sell your personal data.
 
-In the current version of the App, we do not intentionally share your work-hour records or settings with our own servers or with third-party analytics or advertising providers.
+Data may be shared with service providers that process data on our behalf to provide app functionality:
 
-Data may leave the App in the following cases initiated by you or your device environment:
+- Google Firebase (Analytics, Remote Config);
+- RevenueCat (subscription/purchase infrastructure);
+- Platform stores/payment infrastructure (Google Play, Apple).
 
-- If you export data to XLSX or PDF, the generated file may be saved to a location you choose on your device.
-- If you use the operating system share feature, the exported file may be shared with apps or services you choose.
-- If your device operating system, app store, or platform provider collects diagnostic, security, billing, or installation data, that processing is governed by their own policies, not this Privacy Policy.
+When you export/share files, data is also shared with destinations you choose via your device OS.
 
-## Notifications and Widgets
+## Where Data Is Stored
 
-If you enable reminders or automatic shift features, the App may request notification-related permissions and schedule local notifications on your device.
-
-On Android, the App may also use platform features such as exact alarms, boot completion events, and a home screen widget to support reminders, automatic shift behavior, and widget updates.
+- Core shift data and settings: on your device (local storage/database).
+- Analytics/config/purchase infrastructure data: processed by the respective service providers described above.
 
 ## Data Retention
 
-Shift records and settings remain on your device until you edit them, delete them, clear the App's storage, or uninstall the App.
+- Local app data remains on your device until you edit/delete it, clear app storage, or uninstall the app.
+- Local automatic backups are retained in a limited rolling set on-device (currently up to five backups).
+- Exported files remain where you save/share them until deleted.
+- Third-party service retention is managed by those providers under their own policies and controls.
 
-Automatic database backups are retained locally on the device in a limited rolling set. In the current version, the App keeps up to five automatic backups for recovery purposes, unless you remove the App data or uninstall the App sooner.
+## Data Deletion and User Choices
 
-Exported files remain wherever you save or share them until you delete them from that location.
+You can:
 
-## Data Deletion
+- delete/edit shift records inside the app;
+- clear app storage in device settings;
+- uninstall the app;
+- delete exported files where saved.
 
-You can delete data in the following ways:
+For third-party service data requests, contact us at the email above. We may need enough technical details to identify records (for example app variant/platform and relevant purchase/support identifiers).
 
-- delete or edit shift records inside the App;
-- clear the App's local storage using your device settings;
-- uninstall the App, which typically removes the App's private local storage from the device;
-- delete exported files from the location where you saved them.
+## Notifications, Widgets, and Device Permissions
 
-If you need a privacy-related request handled by the developer, use the contact information listed above.
+If enabled by your settings/use, the App may request or use notification-related capabilities and Android features such as exact alarms, boot handling, and home screen widget synchronization.
 
 ## Security
 
-We take reasonable steps within the App to reduce unnecessary exposure of your data. For example, the App stores its main database in app-local storage and disables Android system backup for the app package in the current Android configuration.
+We apply reasonable safeguards in the app design (for example app-local storage patterns and Android backup restrictions in configuration).
 
-However, no method of storage or transmission is completely secure. You are responsible for protecting access to your device and for handling exported files you choose to save or share.
+No storage/transmission method is completely secure, and you remain responsible for securing your device and exported files.
 
 ## Children's Privacy
 
-The App is not directed to children under 13, and we do not knowingly design the App to collect personal information from children through an account-based service.
+The App is not directed to children under 13, and we do not knowingly design it as a child-directed service.
 
-## International Use
+## International Data Processing
 
-If you use the App in a jurisdiction with specific privacy rights, you may contact us using the details above. Any rights available to you depend on the laws that apply in your jurisdiction and on the actual data processing performed by the App.
+Because we rely on third-party infrastructure providers, data processed by those providers may be handled in countries other than your own, subject to their legal and technical safeguards.
+
+## Third-party Policies
+
+- Google Play User Data policy: https://support.google.com/googleplay/android-developer/answer/10144311?hl=en
+- Apple App Review Guidelines: https://developer.apple.com/app-store/review/guidelines/
+- Firebase privacy and data collection references:
+  - https://firebase.google.com/docs/ios/app-store-data-collection
+  - https://firebase.google.com/docs/analytics/configure-data-collection
+- RevenueCat documentation:
+  - https://www.revenuecat.com/docs/customers/identifying-customers
 
 ## Changes to This Privacy Policy
 
-We may update this Privacy Policy from time to time. If we make material changes, we will update the effective date above and may provide additional notice where appropriate.
+We may update this Privacy Policy from time to time. If we make material changes, we will update the effective date and may provide additional notice where appropriate.
