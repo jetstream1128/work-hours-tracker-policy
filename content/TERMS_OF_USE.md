@@ -81,5 +81,6 @@ These Terms are governed by the laws applicable in your jurisdiction, unless oth
 
 ## 13. Related Documents
 
+- Data Deletion Request: https://jetstream1128.github.io/work-hours-tracker/data-deletion/
 - Privacy Policy: https://jetstream1128.github.io/work-hours-tracker/privacy-policy/
 - Terms web page: https://jetstream1128.github.io/work-hours-tracker/terms-of-use/

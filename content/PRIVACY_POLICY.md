@@ -112,6 +112,10 @@ You can:
 
 For third-party service data requests, contact us at the email above. We may need enough technical details to identify records (for example app variant/platform and relevant purchase/support identifiers).
 
+Deletion request page:
+
+- https://jetstream1128.github.io/work-hours-tracker/data-deletion/
+
 ## Notifications, Widgets, and Device Permissions
 
 If enabled by your settings/use, the App may request or use notification-related capabilities and Android features such as exact alarms, boot handling, and home screen widget synchronization.

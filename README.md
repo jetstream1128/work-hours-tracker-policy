@@ -5,8 +5,10 @@ This folder is a standalone package for a separate public GitHub repository that
 ## Included
 
 - `index.html`
+- `data-deletion/index.html`
 - `privacy-policy/index.html`
 - `terms-of-use/index.html`
+- `content/DATA_DELETION_REQUEST.md`
 - `content/PRIVACY_POLICY.md`
 - `content/TERMS_OF_USE.md`
 - `.github/workflows/deploy-pages.yml`
@@ -24,6 +26,7 @@ This folder is a standalone package for a separate public GitHub repository that
 If your repo is `https://github.com/<user>/work-hours-legal`, URLs will be:
 
 - `https://<user>.github.io/work-hours-legal/`
+- `https://<user>.github.io/work-hours-legal/data-deletion/`
 - `https://<user>.github.io/work-hours-legal/privacy-policy/`
 - `https://<user>.github.io/work-hours-legal/terms-of-use/`
 
@@ -35,3 +38,8 @@ In your app Firebase Remote Config set:
 - `paywall_terms_url`
 
 to URLs from the new legal repo.
+
+Google Play Data Safety "Delete data URL" can point to:
+
+- `https://<user>.github.io/work-hours-legal/data-deletion/`
+
