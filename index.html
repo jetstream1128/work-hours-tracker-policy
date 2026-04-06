@@ -1,79 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Ultimate Work Hours Tracker</title>
-    <meta
-      http-equiv="refresh"
-      content="0; url=./privacy-policy/"
-    />
-    <link rel="canonical" href="./privacy-policy/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultimate Work Hours Tracker - Legal</title>
     <style>
       :root {
-        color-scheme: light;
-        --bg: #f4efe5;
-        --surface: #fffaf1;
-        --text: #1c1a17;
-        --muted: #675f53;
-        --accent: #0f766e;
-        --border: rgba(28, 26, 23, 0.12);
-        --shadow: 0 22px 60px rgba(28, 26, 23, 0.12);
+        color-scheme: dark;
+        --bg: #0a0a0a;
+        --surface: #141414;
+        --text: #f2f2f2;
+        --muted: #b8b8b8;
+        --accent: #d8b06a;
+        --border: #2b2b2b;
       }
-
-      * {
-        box-sizing: border-box;
-      }
-
       body {
         margin: 0;
-        min-height: 100vh;
-        display: grid;
-        place-items: center;
-        padding: 24px;
-        font-family: Georgia, "Times New Roman", serif;
-        background:
-          radial-gradient(circle at top left, rgba(15, 118, 110, 0.18), transparent 32%),
-          linear-gradient(180deg, #f7f1e7 0%, #efe7da 100%);
+        font-family: "Segoe UI", Inter, Arial, sans-serif;
+        background: radial-gradient(circle at top, #1a1a1a 0%, var(--bg) 55%);
         color: var(--text);
       }
-
       main {
-        width: min(100%, 720px);
-        padding: 40px 32px;
-        border: 1px solid var(--border);
-        border-radius: 28px;
-        background: var(--surface);
-        box-shadow: var(--shadow);
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
       }
-
       h1 {
         margin: 0 0 12px;
-        font-size: clamp(2rem, 5vw, 3.25rem);
-        line-height: 1.02;
+        font-size: 32px;
+        line-height: 1.2;
       }
-
       p {
-        margin: 0 0 16px;
-        font-size: 1.05rem;
-        line-height: 1.65;
+        color: var(--muted);
+        line-height: 1.6;
+      }
+      .card {
+        margin-top: 28px;
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        background: var(--surface);
+        overflow: hidden;
+      }
+      .item {
+        display: block;
+        padding: 18px 20px;
+        color: var(--text);
+        text-decoration: none;
+        border-top: 1px solid var(--border);
+      }
+      .item:first-child {
+        border-top: 0;
+      }
+      .item:hover {
+        background: #1a1a1a;
+      }
+      .label {
+        font-weight: 600;
+      }
+      .hint {
+        display: block;
+        margin-top: 4px;
+        font-size: 13px;
         color: var(--muted);
       }
-
-      a {
-        color: var(--accent);
-        font-weight: 700;
+      .badge {
+        display: inline-block;
+        margin-top: 12px;
+        border: 1px solid #6d5328;
+        color: #f3d999;
+        background: #2a1f0f;
+        border-radius: 999px;
+        padding: 6px 10px;
+        font-size: 12px;
+        font-weight: 600;
       }
     </style>
   </head>
   <body>
     <main>
       <h1>Ultimate Work Hours Tracker</h1>
-      <p>Redirecting to the Privacy Policy.</p>
-      <p>
-        If you are not redirected automatically, open
-        <a href="./privacy-policy/">Privacy Policy</a>.
-      </p>
+      <p>Legal documents and policy pages for the app.</p>
+      <span class="badge">Official pages</span>
+
+      <section class="card" aria-label="Legal links">
+        <a class="item" href="./terms-of-use/">
+          <span class="label">Terms of Use</span>
+          <span class="hint">Rules for using the app and purchase terms.</span>
+        </a>
+        <a class="item" href="./privacy-policy/">
+          <span class="label">Privacy Policy</span>
+          <span class="hint">How data is handled in the app.</span>
+        </a>
+      </section>
     </main>
   </body>
 </html>
+
