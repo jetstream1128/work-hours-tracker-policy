@@ -1,6 +1,6 @@
 # Terms of Use
 
-Effective date: April 6, 2026
+Effective date: April 18, 2026
 
 These Terms of Use ("Terms") govern your use of **Ultimate Work Hours Tracker** (the "App"), provided by **DanTechStudio** ("we", "us", or "our"). By downloading, installing, or using the App, you agree to these Terms.
 
@@ -17,6 +17,7 @@ Ultimate Work Hours Tracker is a productivity app that helps users:
 - calculate payroll-related estimates;
 - configure reminders and app preferences;
 - export shift data for personal use.
+- optionally enable location geofencing for automatic punch in/out.
 
 The App is provided for informational and personal productivity purposes.
 
@@ -31,6 +32,10 @@ You agree to use the App only in compliance with applicable laws and these Terms
 ## 3. Accounts and Data Storage
 
 The current version of the App is designed to work primarily on-device and does not require account creation for core use. You are responsible for keeping access to your device secure.
+
+## 3A. Optional Location Auto Punch
+
+The App can provide optional location-based auto punch using geofencing. This feature is off by default and only works if you enable it and grant location permissions. You can disable location auto punch or revoke permissions at any time in your device/app settings.
 
 ## 4. Purchases and Subscriptions
 

@@ -1,6 +1,6 @@
 # Privacy Policy
 
-Effective date: April 6, 2026
+Effective date: April 18, 2026
 
 This Privacy Policy applies to **Ultimate Work Hours Tracker** (the "App") and explains how **DanTechStudio** ("we", "us", or "our") handles information when you use the App.
 
@@ -22,6 +22,7 @@ At the time of writing, the App:
 - can create local XLSX/PDF exports when you request them;
 - can share exported files through your device operating system when you choose to share;
 - uses local notifications and Android widget/exact alarm functionality when enabled;
+- can use optional location geofencing for automatic punch in/out when you explicitly enable it for a job;
 - uses Firebase Analytics and Firebase Remote Config;
 - uses RevenueCat for subscription and purchase status handling;
 - does not require account creation for core features;
@@ -33,6 +34,7 @@ At the time of writing, the App:
 
 - Work shift records (for example date, start/end times, shift source).
 - App settings (for example reminders, language, currency, overtime settings, widget settings).
+- Optional geofencing settings for location auto punch (for example location name, coordinates, and geofence radius) when enabled by you.
 - Local backup files of the app database.
 - Export files you generate (for example XLSX/PDF).
 
@@ -73,6 +75,7 @@ We use data to:
 - run core shift tracking and payroll-estimate functionality;
 - save settings and keep app behavior consistent across sessions;
 - schedule reminders and support Android widget behavior;
+- run optional geofence enter/exit checks to support location-based auto punch when enabled by you;
 - generate/share exports when you request them;
 - monitor product usage and improve app quality/features;
 - validate and restore purchases/subscriptions.
@@ -118,7 +121,12 @@ Deletion request page:
 
 ## Notifications, Widgets, and Device Permissions
 
-If enabled by your settings/use, the App may request or use notification-related capabilities and Android features such as exact alarms, boot handling, and home screen widget synchronization.
+If enabled by your settings/use, the App may request or use:
+
+- notification-related capabilities and Android features such as exact alarms, boot handling, and home screen widget synchronization;
+- location permissions (foreground and, where required by platform behavior, background location) for optional geofencing-based auto punch.
+
+Location access is optional and user-controlled. The App uses location/geofencing only for the location auto punch feature that you explicitly enable.
 
 ## Security
 
