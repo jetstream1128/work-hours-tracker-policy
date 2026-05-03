@@ -1,6 +1,7 @@
 google.com, pub-3722989691015729, DIRECT, f08c47fec0942fa0
 
 facebook.com, 860186487106768, DIRECT, c3e20eee3f780d68
+facebook.com, 946877198257298, DIRECT, c3e20eee3f780d68
 
 adagio.io, 1522, RESELLER
 adagio.io, 1575, RESELLER
